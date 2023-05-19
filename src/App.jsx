@@ -14,6 +14,7 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom'
 function App(){
   return(
     <>
+    <div style={{backgroundColor:"#faebed"}}>
     <BrowserRouter>
     <Header />
     <Routes>
@@ -24,6 +25,7 @@ function App(){
     </Routes>
     <Footer />
     </BrowserRouter>
+    </div>
     </>
   );
 }
